@@ -32,7 +32,7 @@ class App extends Component{
             <h1>Loading</h1> :
             (
                 <div className="tc">
-                    <h1 className="ma2 pa1">CattyFriends</h1>
+                    <h1 className="ma2 pa1 f1">CattyFriends</h1>
                     <SearchBox
                     searchChange={this.OnSearchChange}
                     />
