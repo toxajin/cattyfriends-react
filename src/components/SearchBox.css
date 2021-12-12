@@ -1,0 +1,38 @@
+.search{
+    background: white;
+    opacity: calc(40 / 100);
+}
+input::placeholder {
+    color: black;
+    font-size: 1.2em;
+    font-family: Helvetica;
+  }
+ input:focus
+ {
+  color: black;
+  font-family: Helvetica;
+  opacity: calc(100 / 100);
+ }
+ input:focus::placeholder {
+  color: transparent;
+}
+  .search {
+    display: inline-flex;
+  }
+  
+  .search-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    order: -1;
+    opacity: calc(100 / 100);
+  }
+  
+  .search-field {
+    border: 0; 
+  }
+  
+  .search-field:focus {
+    outline: none;
+  }
+  
